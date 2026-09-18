@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Privacy Guard: Prevent text selection */
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Hide UI during print attempts */
+@media print {
+  body {
+    display: none !important;
+  }
+}
